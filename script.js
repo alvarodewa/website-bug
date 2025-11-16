@@ -2,7 +2,7 @@ function login() {
   const u = document.getElementById('username').value;
   const p = document.getElementById('password').value;
   const msg = document.getElementById('loginMsg');
-  if(u==='alvaro' && p==='andita') {
+  if(u==='beta' && p==='1') {
     document.getElementById('loginDiv').classList.add('hidden');
     document.getElementById('mainDiv').classList.remove('hidden');
   } else {
@@ -90,3 +90,4 @@ function startProgress(container,target,metode){
     }
   },200);
 }
+
